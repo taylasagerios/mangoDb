@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const reactionSchema = reqire('./reaction');
+const reactionSchema = reqire('./models/reaction');
 
 const thoughtSchema = new mongoose.Schema({
     thoughtText:{
